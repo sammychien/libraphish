@@ -9,7 +9,8 @@ def main():
 
     # Safe websites below
     # url = 'https://wikipedia.org'
-    url = 'https://www.att.com/'
+    url = input("Please enter a url:")
+    # url = 'https://www.att.com/'
 
     # Logo Image Processing
     su = SeleniumUtils(True)
